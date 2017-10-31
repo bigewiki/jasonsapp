@@ -1,0 +1,217 @@
+#inplay{
+
+}
+
+i{
+  margin:5px;
+}
+
+.timerspace{
+  text-align: center;
+  color: #231F20;
+  font-weight:bold;
+}
+
+.timerspace{
+  font-size:30px;
+}
+
+.timercontainer{
+  border:2px solid #231F20;
+  padding:5 px;
+  border-radius: 5px;
+  background-color:rgba(225,225,225,.5);
+  margin-top: 20px;
+}
+
+.standardblock{
+  height:150px;
+}
+
+.tallblock{
+  height:250px;
+}
+
+.timercontainer h2{
+  text-align: center;
+  color:#231F20;
+  font-weight:bold;
+  font-size:40px;
+}
+
+body{
+  background:url(http://bigewiki.com/jasonsapp/img/planet-581239_1280.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#maincontainer{
+  padding-top:20px;
+}
+
+.red{
+  color:#f20606;
+  padding-top:5px;
+  font-size:25px;
+}
+
+.black{
+  color:#231f20;
+  padding-top:5px;
+  font-size:25px;
+}
+
+.levelinputs td, .levelinputs th,#tipsarea,.optionalinput{
+  width:300px;
+  text-align:center;
+  border:2px solid black;
+  background-color:rgba(225, 225, 225, 0.3);
+  font-weight:bold;
+  color:black;
+}
+
+.optionalinput h3{
+  margin: 10px;
+font-weight: bold;
+}
+
+.optionalinput{
+  margin-top:20px;
+}
+
+#gametitleinput, #gamenoteinput{
+    width:100%;
+    max-width:100% !important;
+}
+
+
+.levelinputs input, #gametitleinput, #gamenoteinput{
+  background-color:rgba(225, 225, 225, 0.5);
+  border-radius:0px;
+}
+
+#gamenoteinput{
+  margin-bottom:0px;
+  height: 435px;
+}
+
+#gametitleoutput{
+  font-weight: bold;
+  text-align: center;
+  color: #231f20;
+}
+
+#gamenoteoutput{
+  font-size:20px;
+}
+
+.levelinputs h3{
+  margin-top:0px;
+  margin-bottom:0px;
+  color:black;
+}
+
+.levelinputs{
+  margin:0 auto;
+  background-color:rgba(225, 225, 225, 0.3);
+  width:100%;
+}
+
+.levelinputs i{
+  font-size: 20px;
+color: red;
+}
+
+#startgame{
+  min-width: 150px;
+min-height: 50px;
+font-size: 20px;
+text-transform: uppercase;
+font-weight: bold;
+border-color: #2f772f;
+margin: 20px;
+padding
+}
+
+.alert{
+  width:100%;
+  margin:0 auto;
+  margin-top:20px;
+  font-size:17px;
+
+}
+
+.alert a{
+  color:#ff5e5a!important;
+  font-weight:bold;
+  text-decoration: underline;
+}
+
+.alert a:hover{
+  color:#ff0700!important;
+}
+
+
+#alertarea1 {
+    width: 100%;
+    margin-top: 0px;
+    background-color: rgba(102, 117, 26, 0.7);
+        background-image: none;
+        color: #fff6b3;
+        border: 1px solid #fff6b3;
+    text-align: center;
+    position: absolute;
+    z-index: 101;
+    padding-top: 30px;
+padding-bottom: 30px;
+font-size: 30px;
+font-weight: bold;
+}
+
+.alert-danger{
+  background-image:none;
+  background-color:rgba(216, 106, 106, 0.5);
+  color:white;
+  border-color:black;
+}
+
+#startup{
+  padding-top:20px;
+}
+
+#alertarea1,#confirmalert,#inplay{
+  display:none;
+}
+
+.breakrow td{
+  background-color:rgba(16, 16, 16, 0.5);
+}
+
+.breakrow h3{
+    color:white;
+}
+
+.form-control{
+  color:black;
+}
+
+#tipsarea p{
+text-align:left;
+padding:20px;
+}
+
+#timercontrols{
+  margin:20px;
+  margin-top:30px;
+}
+
+#timercontrols a{
+  color:#231f20;
+  font-size:30px;
+}
+
+#timercontrols a:hover{
+  color: white;
+}

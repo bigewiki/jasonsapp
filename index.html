@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jason's App</title>
+
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Font -->
+    <script src="https://use.fontawesome.com/b6317f6a0b.js"></script>
+    <!-- JQUERY FTW -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+    <div id="topalertwrapper">
+      <div id="alertarea1" class="alert alert-success">test</div>
+    </div>
+  </head>
+  <body>
+
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<div class="container" id="maincontainer">
+
+<div class="row" id="startup">
+  <div class="col-md-8">
+  <div class="inputcontainer">
+
+    <table class="levelinputs">
+      <tr>
+        <th>
+          Level
+        </th>
+        <th>
+          Level Time
+        </th>
+        <th>
+          Big Blind
+        </th>
+        <th>
+          Small Blind
+        </th>
+      </tr>
+
+      <tr><td><h3>1</h3></td><td><input name="lvl1time1time" id="lvl1time" class="form-control" type="number" min="0" max="60" placeholder="1"></input></td><td><input name="lvl1big" id="lvl1big" class="form-control" type="number" min="0" placeholder="50"></input></td><td><input name="lvl1small" id="lvl1small" class="form-control" type="number" min="0" placeholder="25"></input></td></tr>
+
+      <tr><td><h3>2</h3></td><td><input name="lvl1time2time" id="lvl2time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl2big" id="lvl2big" class="form-control" type="number" min="0"></input></td><td><input name="lvl2small" id="lvl2small" class="form-control" type="number" min="0"></input></td></tr>
+      <tr><td><h3>3</h3></td><td><input name="lvl1time3time" id="lvl3time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl3big" id="lvl3big" class="form-control" type="number" min="0"></input></td><td><input name="lvl3small" id="lvl3small" class="form-control" type="number" min="0"></input></td></tr>
+      <tr><td><h3>4</h3></td><td><input name="lvl1time4time" id="lvl4time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl4big" id="lvl4big" class="form-control" type="number" min="0"></input></td><td><input name="lvl4small" id="lvl4small" class="form-control" type="number" min="0"></input></td></tr>
+      <tr><td><h3>5</h3></td><td><input name="lvl1time5time" id="lvl5time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl5big" id="lvl5big" class="form-control" type="number" min="0"></input></td><td><input name="lvl5small" id="lvl5small" class="form-control" type="number" min="0"></input></td></tr>
+
+      <tr class="breakrow"><td><h3>Break 1</h3></td><td><input name="break1" id="break1" class="form-control" type="number" min="0" max="60"></input></td><td><i class="fa fa-times"></i></td><td><i class="fa fa-times"></i></td></tr>
+
+      <tr><td><h3>6</h3></td><td><input name="lvl1time6time" id="lvl6time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl6big" id="lvl6big" class="form-control" type="number" min="0"></input></td><td><input name="lvl6small" id="lvl6small" class="form-control" type="number" min="0"></input></td></tr>
+      <tr><td><h3>7</h3></td><td><input name="lvl1time7time" id="lvl7time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl7big" id="lvl7big" class="form-control" type="number" min="0"></input></td><td><input name="lvl7small" id="lvl7small" class="form-control" type="number" min="0"></input></td></tr>
+      <tr><td><h3>8</h3></td><td><input name="lvl1time8time" id="lvl8time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl8big" id="lvl8big" class="form-control" type="number" min="0"></input></td><td><input name="lvl8small" id="lvl8small" class="form-control" type="number" min="0"></input></td></tr>
+      <tr><td><h3>9</h3></td><td><input name="lvl1time9time" id="lvl9time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl9big" id="lvl9big" class="form-control" type="number" min="0"></input></td><td><input name="lvl9small" id="lvl9small" class="form-control" type="number" min="0"></input></td></tr>
+      <tr><td><h3>10</h3></td><td><input name="lvl1time10time" id="lvl10time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl10big" id="lvl10big" class="form-control" type="number" min="0"></input></td><td><input name="lvl10small" id="lvl10small" class="form-control" type="number" min="0"></input></td></tr>
+
+      <tr class="breakrow"><td><h3>Break 2</h3></td><td><input name="break2" id="break2" class="form-control" type="number" min="0" max="60"></input></td><td><i class="fa fa-times"></i></td><td><i class="fa fa-times"></i></td></tr>
+
+      <tr><td><h3>11</h3></td><td><input name="lvl1time11time" id="lvl11time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl11big" id="lvl11big" class="form-control" type="number" min="0"></input></td><td><input name="lvl11small" id="lvl11small" class="form-control" type="number" min="0"></input></td></tr>
+      <tr><td><h3>12</h3></td><td><input name="lvl1time12time" id="lvl12time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl12big" id="lvl12big" class="form-control" type="number" min="0"></input></td><td><input name="lvl12small" id="lvl12small" class="form-control" type="number" min="0"></input></td></tr>
+      <tr><td><h3>13</h3></td><td><input name="lvl1time13time" id="lvl13time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl13big" id="lvl13big" class="form-control" type="number" min="0"></input></td><td><input name="lvl13small" id="lvl13small" class="form-control" type="number" min="0"></input></td></tr>
+      <tr><td><h3>14</h3></td><td><input name="lvl1time14time" id="lvl14time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl14big" id="lvl14big" class="form-control" type="number" min="0"></input></td><td><input name="lvl14small" id="lvl14small" class="form-control" type="number" min="0"></input></td></tr>
+      <tr><td><h3>15</h3></td><td><input name="lvl1time15time" id="lvl15time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl15big" id="lvl15big" class="form-control" type="number" min="0"></input></td><td><input name="lvl15small" id="lvl15small" class="form-control" type="number" min="0"></input></td></tr>
+
+      <tr class="breakrow"><td><h3>Break 3</h3></td><td><input name="break3" id="break3" class="form-control" type="number" min="0" max="60"></input></td><td><i class="fa fa-times"></i></td><td><i class="fa fa-times"></i></td></tr>
+
+      <tr><td><h3>16</h3></td><td><input name="lvl1time16time" id="lvl16time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl16big" id="lvl16big" class="form-control" type="number" min="0"></input></td><td><input name="lvl16small" id="lvl16small" class="form-control" type="number" min="0"></input></td></tr>
+      <tr><td><h3>17</h3></td><td><input name="lvl1time17time" id="lvl17time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl17big" id="lvl17big" class="form-control" type="number" min="0"></input></td><td><input name="lvl17small" id="lvl17small" class="form-control" type="number" min="0"></input></td></tr>
+      <tr><td><h3>18</h3></td><td><input name="lvl1time18time" id="lvl18time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl18big" id="lvl18big" class="form-control" type="number" min="0"></input></td><td><input name="lvl18small" id="lvl18small" class="form-control" type="number" min="0"></input></td></tr>
+      <tr><td><h3>19</h3></td><td><input name="lvl1time19time" id="lvl19time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl19big" id="lvl19big" class="form-control" type="number" min="0"></input></td><td><input name="lvl19small" id="lvl19small" class="form-control" type="number" min="0"></input></td></tr>
+      <tr><td><h3>20</h3></td><td><input name="lvl1time20time" id="lvl20time" class="form-control" type="number" min="0" max="60"></input></td><td><input name="lvl20big" id="lvl20big" class="form-control" type="number" min="0"></input></td><td><input name="lvl20small" id="lvl20small" class="form-control" type="number" min="0"></input></td></tr>
+      </table>
+
+      <div id="confirmalert" class="alert alert-danger">
+        Are you sure you want to start?<br>
+        <a href="#" id="yesstart">Yes</a> or <a href="#" id="nodontstart">No</a>?
+      </div>
+
+      <center>
+      <button class="btn-success center-block" id="startgame">Start</button>
+    </center>
+
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div id="tipsarea">
+      <p>
+        <i class="fa fa-exclamation-circle"></i>Any blank fields will assume the value should stay the same.<br><br>
+
+        <i class="fa fa-clock-o"></i>Level times should be intergers, full minutes (ex: 2)<br><br>
+
+        <i class="fa fa-fast-forward"></i>Leaving level time blank will result in 10 second levels. This is great for testing.
+      </p>
+    </div>
+
+    <div class="optionalinput">
+        <h3>Title</h3>
+        <input id="gametitleinput" value="Good luck!">
+    </div>
+
+    <div class="optionalinput">
+        <h3>Public Note</h3>
+        <textarea id="gamenoteinput" placeholder="Message">
+<h2>Rules</h2>
+<ul>
+<li>Know when to hold them</li>
+<li>Know when to fold them</li>
+<li>Have fun!</li>
+</ul>
+</textarea>
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="row" id="inplay">
+
+<div class="col-md-8">
+
+  <div class="timercontainer">
+      <h1 id="gametitleoutput">Good Luck!</h1>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+
+      <div class="timercontainer standardblock">
+      <h2>Level Number</h2>
+      <p class="timerspace">
+      <span id="levelnum">1</span>
+      </p>
+      </div>
+
+    </div>
+
+    <div class="col-sm-6">
+      <div class="timercontainer standardblock">
+
+        <h2>Total Time</h2>
+        <p class="timerspace">
+        <span id="totaltimerminutes">0</span>:<span id="totaltimertens">0</span><span id="totaltimerseconds">0</span>
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-sm-6">
+      <div class="timercontainer tallblock">
+
+        <h2>Level Time</h2>
+        <p class="timerspace">
+        <span id="leveltimerminutes">0</span>:<span id="leveltimertens">0</span><span id="leveltimerseconds">0</span>
+        / <span id="levellengthdisplay"></span>:00
+        </p>
+
+
+          <center id="timercontrols">
+            <a href="#"><i class="fa fa-pause"></i></a>
+            <a href="#"><i class="fa fa-play"></i></a>
+          </center>
+
+
+      </div>
+
+
+    </div>
+    <div class="col-md-6">
+      <div class="timercontainer tallblock">
+        <h2>Small Blind</h2>
+        <p class="timerspace">
+          <span id="smallblinddisplay">25</span>
+        </p>
+
+        <h2>Big Blind</h2>
+        <p class="timerspace">
+          <span id="bigblinddisplay">50</span>
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+<div class="timercontainer">
+  <div id="gamenoteoutput">
+    Something is broken
+  </div>
+</div>
+
+</div>
+
+<div class="col-md-4">
+        <div class="timercontainer">
+          <p class="timerspace">
+            Royal Flush<br><span class="red"> T&hearts; J&hearts; Q&hearts; K&hearts; A&hearts; </span><br>Straight Flush<br><span class="black"> 5&clubs; 6&clubs; 7&clubs; 8&clubs; 9&clubs; </span><br>Four of a Kind<br><span class="black"> Q&clubs; </span> <span class="red"> Q&diams; Q&hearts; </span> <span class="black"> Q&spades; 2&clubs; </span><br>Full House<br><span class="black"> Q&clubs; </span> <span class="red"> Q&hearts; </span> <span class="black"> Q&spades; </span> <span class="red"> 5&hearts; </span> <span class="black"> 5&clubs; </span><br>Flush<br><span class="red"> 3&hearts; 5&hearts; 8&hearts; 9&hearts; Q&hearts; </span><br>Straight<br><span class="black"> 5&spades; </span> <span class="black"> 6&clubs; </span> <span class="red"> 7&hearts; </span> <span class="red"> 8&diams; </span> <span class="black"> 9&spades; </span><br>Three of a Kind<br><span class="black"> Q&spades; </span> <span class="black"> Q&clubs; </span> <span class="red"> Q&hearts; </span> <span class="red"> 5&diams; </span> <span class="red"> 8&diams; </span><br>Two Pair<br><span class="black"> 5&spades; </span> <span class="red"> 5&hearts; </span> <span class="black"> Q&spades; </span> <span class="red"> Q&hearts; </span> <span class="black"> A&spades; </span><br>Pair<br><span class="red"> 5&hearts; </span> <span class="black"> 5&clubs; </span> <span class="black"> 7&spades; </span> <span class="red"> 9&hearts; </span> <span class="black"> A&spades; </span><br>High Card<br><span class="red"> A&hearts; </span> <span class="black"> 5&clubs; </span> <span class="black"> 7&spades; </span> <span class="red"> 9&hearts; </span> <span class="black"> Q&spades; </span>
+          </p>
+        </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
