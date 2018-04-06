@@ -497,3 +497,8 @@ $(".fa-play").promise().done(function(){
   $(".fa-pause").show();
 });
 });
+
+
+window.onbeforeunload = function() {
+    return true;
+};
